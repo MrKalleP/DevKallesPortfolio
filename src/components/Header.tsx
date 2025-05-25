@@ -11,7 +11,7 @@ export const Header = () => {
 
   return (
     <motion.header
-      initial={{ y: -60, opacity: 0 }}
+      initial={{ y: -70, opacity: 0 }}
       animate={{ y: 0, opacity: 1 }}
       transition={{ duration: 0.6, ease: 'easeOut' }}
       className="fixed top-0 left-0 w-full z-50 backdrop-blur-md bg-gradient-to-r from-sky-800/80 to-sky-900/80 shadow-md"
@@ -24,7 +24,7 @@ export const Header = () => {
               key={name}
               whileHover={{ scale: 1.1 }}
               whileTap={{ scale: 0.95 }}
-              className="cursor-pointer hover:text-cyan-300 transition-colors duration-200"
+              className="cursor-pointer hover:text-yellow-300 transition-colors duration-200"
             >
               <Link to={path}>{name}</Link>
             </motion.li>

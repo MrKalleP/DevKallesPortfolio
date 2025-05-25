@@ -1,7 +1,9 @@
 export const FirstPage = () => {
   return (
     <>
-      <h2>FirstPage</h2>
+      <div className="pt-20">
+        <h2>FirstPage</h2>
+      </div>
     </>
   );
 };
